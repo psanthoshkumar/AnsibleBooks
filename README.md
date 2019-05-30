@@ -8,6 +8,11 @@ All packages you need are given below,
 
 Ansible,
 
+## general ansible commands
+	check version	=>	ansible --version
+	to check list of ansible modules	=>	ansible-doc -l
+	to chck details of one modules 	=>	ansbile-doc -s yum
+	
 
 
 
