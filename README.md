@@ -34,4 +34,4 @@ ansible -i inventory App1 -m yum -a "name=httpd state=present”
 ansible -i inventory App1 -m service -a "name=httpd state=started”
 
 #### 5. copy
-ansible -i inventory -m copy -a “src=<SourceFile> dest=<DestFile>”
+ansible -i inventory -m copy -a “src=SourceFile dest=DestFile”
