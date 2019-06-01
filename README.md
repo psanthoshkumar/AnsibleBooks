@@ -63,7 +63,14 @@ Roles in ansible are next level abstration of ansible playbooks
 
 	<fieldset>
 	contains regular files those need to be copied to target systems
-	
+
 
 	</fieldset>
 
+
+	files:		contains regular files those need to be copied to target systems
+	handlers :		event handlers
+	meta :		role dependencies
+	templates :		similar to files, but, it contains dynamic data
+	tasks :		playbook tasks
+	vars/group_vars :		variables definitions
