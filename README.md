@@ -17,12 +17,9 @@ All packages you need are given below,
 Ansible,
 
 ## general ansible commands
-	check version	=>	ansible --version
-	to check list of ansible modules	=>	ansible-doc -l
-	to chck details of one modules 	=>	ansbile-doc -s moduleName
-
-	
-
+	check version 						:	ansible --version
+	to check list of ansible modules	:	ansible-doc -l
+	to chck details of one modules 		:	ansbile-doc -s moduleName
 
 
 ## validation steps
@@ -61,16 +58,12 @@ Roles in ansible are next level abstration of ansible playbooks
 
 ##### Structure of Roles:
 
-	<fieldset>
-	contains regular files those need to be copied to target systems
+	files 		:		contains regular files those need to be copied to target systems
+	handlers	:		event handlers
+	meta 		:		role dependencies
+	templates 	:		similar to files, but, it contains dynamic data
+	tasks		:		playbook tasks
+	vars/group_vars 	:		variables definitions
 
 
-	</fieldset>
 
-
-	files:		contains regular files those need to be copied to target systems
-	handlers :		event handlers
-	meta :		role dependencies
-	templates :		similar to files, but, it contains dynamic data
-	tasks :		playbook tasks
-	vars/group_vars :		variables definitions
